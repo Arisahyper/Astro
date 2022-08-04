@@ -1,20 +1,20 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@astrojs/tailwind': ^0.2.5
   astro: ^1.0.0-rc.4
   autoprefixer: ^10.4.8
   postcss: ^8.4.14
   prettier: ^2.7.1
   prettier-plugin-astro: ^0.2.0
-  tailwindcss: ^3.1.7
 
 devDependencies:
+  '@astrojs/tailwind': 0.2.5
   astro: 1.0.0-rc.4
   autoprefixer: 10.4.8_postcss@8.4.14
   postcss: 8.4.14
   prettier: 2.7.1
   prettier-plugin-astro: 0.2.0
-  tailwindcss: 3.1.7
 
 packages:
 
@@ -97,6 +97,17 @@ packages:
     engines: {node: ^14.18.0 || >=16.12.0}
     dependencies:
       prismjs: 1.28.0
+    dev: true
+
+  /@astrojs/tailwind/0.2.5:
+    resolution: {integrity: sha512-VbqDVNn/Geb4p0WjjnjBs8staZgubXU16elpxqIwD4y/E2nq585/HWOJt6eK+MifDqeE/C2mGMNK+GLwZW6ylg==}
+    dependencies:
+      '@proload/core': 0.3.2
+      autoprefixer: 10.4.8_postcss@8.4.14
+      postcss: 8.4.14
+      tailwindcss: 3.1.7
+    transitivePeerDependencies:
+      - ts-node
     dev: true
 
   /@astrojs/telemetry/0.4.1:
