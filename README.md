@@ -1,4 +1,8 @@
-# Astro + Tailwind
+<h1 align="center">Astro + Tailwind</h1>
+
+<div align="center">
+<img src="https://api.iconify.design/logos/astro.svg?width=200"/>
+</div>
 
 ## Installation
 
